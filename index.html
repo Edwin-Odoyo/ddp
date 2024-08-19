@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudi Development Programme</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+  </style>
+</head>
+<body>
+
+
+
+    <!--=================================== Nav & Header ===============================-->
+
+  
+  <nav class="navbar container-fluid bg-body-tertiary fixed-top">      
+    <div class="container navbar-content d-flex align-items-center">
+      <div class="d-inline-flex pt-3 me-auto">
+        <a href="#logo"><img src="./img/LogoDuds.jpg" width="100" height="100" alt="logo"></a>
+        <p class="px-2 d-none d-md-block">Dudi <br> Development <br> Programme <br> <span class="fw-bold">DDP</span></p>
+      </div>
+      <div class=" navbar-content py-0 my-0" >
+        <div class="pb-2">
+          <div class="container d-flex flex-wrap">
+            <ul class="nav mx-auto">
+              <li class="nav-item"><a href="#home" class="nav-link link-body-emphasis me-2 active navhome rounded-3" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-body-emphasis  rounded-3">Contact us</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-body-emphasis px-2  rounded-3">Location</a></li>
+              <li class="nav-item"><a href="#news" class="nav-link link-body-emphasis px-2 rounded-3">Our News</a></li>
+            </ul>
+            <ul class="nav d-flex align-items-center justify-content-center fw-semibold">
+              <li><a href="https://www.facebook.com/profile.php?id=100069677028601" class="text-dark mx-2" >   
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+              </a></li>
+              <li><a href="" class=" text-dark me-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+              </a></li>
+              <li><a href="" class="text-dark me-2"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+              </a></li>
+              <li><a href="https://x.com/DudiProgram?s=09" class="text-dark" > 
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg>
+              </a></li>                  
+            </ul>
+          </div>
+        </div>
+
+          <div class="/">
+            <div class="container">
+              <ul class="nav fw-bold">
+                <li class="nav-item"><a href="about.html" class="nav-link link-body-emphasis px-2 rounded-3">Who we are</a></li>
+                <li class="nav-item"><a href="service.html" class="nav-link link-body-emphasis px-2 rounded-3">What we do</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link link-body-emphasis px-2 rounded-3">Projects</a></li>
+                <li class="nav-item"><a href="#donors" class="nav-link link-body-emphasis mx-2 d-md-block rounded-3">Partners</a></li>
+                <li class="nav-item" data-bs-toggle="alert" data-bs-target="#topAlert"><a href="#" class="nav-link link-body-emphasis text-light rounded-4 px-3" onclick="showAlert()" style="background-color: #53991e;">Donate</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="d-lg-none mx-auto">
+        <div class="nav-item" data-bs-toggle="alert" data-bs-target="#topAlert"><a href="#" class="nav-link link-body-emphasis text-light rounded-4 p-3 text-bold" onclick="showAlert()" style="background-color: #53991e;">Donate</a></div>
+      </div>
+      <button class=" navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#list" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="list">
+        <ul class="navbar-nav">
+          <li class="nav-item pt-3">
+            <a href="service.html" class="nav-link link-body-emphasis px-2">What we do</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link link-body-emphasis px-2">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link link-body-emphasis px-2">Who we are</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-body-emphasis px-2" onclick="showAlert()">Join Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#donors" class="nav-link link-body-emphasis px-2 d-none d-md-block">Partners/Donors</a>
+          </li>
+          <li class="nav-item pb-3">
+            <a href="#contact" class="nav-link link-body-emphasis px-2 ">Our Location</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+     
+    <!-- ================================alert at the top of the navbar==================== -->
+
+    <div id="topAlert" class="alert alert-success alert-dismissible top-alert" role="alert">
+      <strong class="text text-primary-emphasis">Reach us through our mobile number:</strong> <span class="text dark">+254714997368 or +254726417376.</span>Thank you for your generosity.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+ <!--============================================ Header section ===============================-->
+ <!-- darken the image from the background see example on the attention area -->
+
+    <header class="banner position-relative overflow-hidden px-0 py-3 pb-md-5 mb-md-3 text-center" id="home">
+        <div class="col-md-8 p-lg-5 mx-auto my-5" id="logo">
+          <h1 class="display-3 fw-bold">Together for Intergrated Development</h1>
+          <h3 class="mb-3 text-white">Conserve Nature, Save the Planet</h3>
+          <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <a class="icon-link link-body-emphasis text-white" href="#works">
+              Learn more
+              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+            </a>
+            <a class="icon-link" href="#projects">
+                <button class="btn d-inline-flex align-items-center navhome" type="button" style=" color:whitesmoke">
+                    DDP Projects 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+                </button>
+            </a>
+          </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </header>
+
+
+<!--============================================ Attention ================================-->
+ <!-- call to action not vision etc short information regarding -->
+      <div class="container px-4 pt-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Projects Focus</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/reafforestationd-dudi.jpg'); background-position: center; background-blend-mode: lighten;">
+              <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 fs-2 lh-1 fw-bold">Reafforestation & Afforestation</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto text-body-emphasis">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-1-square" viewBox="0 0 16 16">
+                        <path d="M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                    </svg>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small class="fw-bold">Migori</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+      <div class="col">
+        <div class="card card-cover w-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/maize-field.jpg'); background-position: center; background-blend-mode: lighten;">
+          <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 fs-2 lh-1 fw-bold">Agriculture & Food Security</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-2-square" viewBox="0 0 16 16">
+                    <path d="M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small class="fw-bold">Siaya County</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover w-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/healthcare.jpg'); background-position: right;">
+          <div class="d-flex flex-column p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 fs-2 lh-1 fw-bold text-body-emphasis">Healthcare & Disease Control</h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto text-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-3-square" viewBox="0 0 16 16">
+                    <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                </svg>
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small class="fw-bold text-body-emphasis">Homa Bay</small>
+              </li>
+              <li class="d-flex align-items-center text-body-emphasis">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--===============================================  Important info ===============================-->
+
+  <section class="mt-5 bgcolor">
+    <div class="container px-4 pt-5 pb-1">        
+        <h2 class="pb-2 px-2 border-bottom">Our Profile</h2>
+        <div class="col-md-12 py-3 py-md-5">
+          <h4 class=" fw-bold text-body-emphasis mx-auto text-center"> "Empowering Communities to Create Wealth through Sustainable Development Programmmes" </h4>
+          <p class="mx-auto p-3 p-lg-0 fs-5">
+            At Dudi Development Program, we believe in a world where every community can thrive, free from the grip of poverty. Our Mission is to integrate development in agricultural and environmental sector, improve access to education, water, medical care and sanitation. 
+          </p>
+          <div class="text-center pb-4">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-lg text-bg-light center fw-bold">Join Us Today</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!--============================================ Projects ===============================-->
+    
+      <section class="container-fluid bg-body-tertiary">
+        <div id="projects" class=" container px-4 pt-5">
+          <h2 class="pb-2 border-bottom">Current Projects</h2>
+      
+          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="col d-flex flex-column align-items-start gap-2 py-3 py-md-5 rounded-3"  style="background-image: url(./img/adult-literacy.jpg); background-position: center; background-size: cover;">
+              <h2 class="fw-bold text-body-emphasis">Community Empowerment & Sustainable Development</h2>
+              <p class="text-body-emphasis fs-5">We facilitate adult literacy, youth education and impact life skills for growth of an empowered generation in the community. </p>
+              <a href="#" class="btn btn-lg text-light" style="background-color: #53991e;">Partner with us</a>
+            </div>
+      
+            <div class="col">
+              <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex justify-content-center justify-content-lg-between text-secondary fs-4 rounded-3 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" style="color: #3bb9e7;" fill="currentColor" class="bi bi-droplet-fill" viewBox="0 0 16 16">
+                      <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6M6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13"/>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis text-center text-md-start fs-6">Water Projects</h4>
+                  <p class="text-body-secondary text-center text-md-start fs-8">Sustaining a productive and healthy population</p>
+                </div>
+      
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex justify-content-center justify-content-lg-between text-success fs-4 rounded-3 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" style="color: #3bb9e7;" fill="currentColor" class="bi bi-cloud-rain-fill" viewBox="0 0 16 16">
+                      <path d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317m3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317m3 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317m3 0a.5.5 0 0 1 .316.633l-1 3a.5.5 0 1 1-.948-.316l1-3a.5.5 0 0 1 .632-.317m.247-6.998a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973"/>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis text-center text-md-start fs-6">Tree Planting</h4>
+                  <p class="text-body-secondary text-center text-md-start fs-8">Reafforestation & afforestation to increases vegetation cover.</p>
+                </div>
+      
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex justify-content-center justify-content-lg-between fs-4 rounded-3 mb-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" style="color: #3d8303;" fill="currentColor" class="bi bi-clipboard-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M5 1.5A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5v1A1.5 1.5 0 0 1 9.5 4h-3A1.5 1.5 0 0 1 5 2.5zm5 0a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5z"/>
+                          <path d="M3 1.5h1v1H3a1 1 0 0 0-1 1V14a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3.5a1 1 0 0 0-1-1h-1v-1h1a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3.5a2 2 0 0 1 2-2"/>
+                          <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.31 8 6.982"/>
+                        </svg>
+                  </div>
+                  <h4 class="fw-semibold mb-0 text-body-emphasis text-center text-md-start fs-6">Commnunity Resource Centre</h4>
+                  <p class="text-body-secondary text-center text-md-start fs-8">Community empowerment for self-development & income generation</p>
+                </div>
+      
+                <div class="col d-flex flex-column gap-2">
+                  <div class="feature-icon-small d-inline-flex justify-content-center justify-content-lg-between fs-4 rounded-3 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" style="color: #3d8303;" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                      <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+                      <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+                    </svg>
+                  </div>
+                  <h4 class="fw-semibold fs-6 mb-0 text-body-emphasis text-center text-md-start">Modern Educational Facilities</h4>
+                  <p class="text-body-secondary text-center text-md-start fs-8">Supporting orphans & vulnerable persons with access to education </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--=============================================== Donors and Partners ================================-->
+
+<div id="donors" class="pb-4 slide">
+  <div class="container text-bg-white px-4 py-5 bg">
+    <h2 class="pb-2 border-bottom">Partners & Donors </h2>
+  
+    <div class="transition">
+      <div class="d-flex flex-row justify-content-center align-items-center py-5 gap-3 sliding-transition">
+        
+        <div class="col p-3">
+          <img width="100" src="./img/ministry of agriculture.jpg" alt="logo 5">
+        </div>
+
+        <div class="col p-3">
+          <img width="100" src="./img/whh-logo.jpg" alt="partners logo 1">
+        </div>
+    
+        <div class="col p-3">
+          <img width="150" src="./img/Government of Kenya.png" alt="logo 2">
+        </div>
+    
+        <div class="col p-3 ">
+          <img width="80" src="./img/homa-bay-county-government.png" alt=" logo 3">
+        </div>
+    
+        <div class="col p-3">
+         <img width="150" src="./img/ministry-of-education.jpg" alt="logo 4">
+        </div>
+    
+        <div class="col p-3">
+          <img width="150" src="./img/ministry of water kenya.jpg" alt="logo 5">
+        </div>
+        <!-- ---repeated anomations -->
+
+        <div class="col p-3">
+          <img width="100" src="./img/ministry of agriculture.jpg" alt="logo 5">
+        </div>
+
+        <div class="col p-3">
+          <img width="100" src="./img/whh-logo.jpg" alt="partners logo 1">
+        </div>
+    
+        <div class="col p-3">
+          <img width="150" src="./img/Government of Kenya.png" alt="logo 2">
+        </div>
+    
+        <div class="col p-3">
+          <img width="80" src="./img/homa-bay-county-government.png" alt=" logo 3">
+        </div>
+    
+        <div class="col p-3">
+         <img width="150" src="./img/ministry-of-education.jpg" alt="logo 4">
+        </div>
+    
+        <div class="col p-3">
+          <img width="150" src="./img/ministry of water kenya.jpg" alt="logo 5">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--=============================================== Info area ================================-->
+
+<section class="container-fluid  bg-body-tertiary" id="news">
+  <div class=" container col-xxl-12 pt-5 pb-4">
+    <h2 class="pb-2 border-bottom">Our Latest News</h2>
+
+    <div class="d-flex flex-lg-row-reverse align-items-center flex-wrap my-5 gap-5">        
+      <div class="py-5 rounded-3 news-research" style="background-image: url(./img/solar\ and\ biofuel.jpg); background-position: center; background-blend-mode: soft-light;">
+        <h1 class="fs-3 py-lg-5 px-4 fw-bold text-body-emphasis lh-1 mb-3">Use of solar and biowaste charcoal to counter defforestation</h1>
+        <p class="fs-6 mt-5 px-4 text-light">Solar energy reduces reliance on wood for fuel, preserving forests. Biowaste charcoal, made from agricultural residues, offers a sustainable alternative to traditional charcoal, reducing the need for tree cutting and promoting environmental conservation.</p>
+      </div>
+      <div class="border rounded-3 me-auto news">
+        <ul class="d-flex flex-column justify-content-center p-4 p-lg-5 my-md-4  gap-4 list-unstyled small ">
+          <li class="d-flex align-items-center gap-4">
+                <a href="" class="px-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" style="color: #53991e;" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                  </svg>
+                </a>
+            <div>
+              <h5 class="mb-0">News & Media</h5>
+              Get the latest news in our region  
+            </div>
+          </li>
+          <li class="d-flex align-items-center gap-4">
+              <a href="" class="px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" style="color: #dc8920;" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8z"/>
+                  <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                  <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                </svg>
+              </a>
+            <div>
+              <h5 class="mb-0">Our Publications</h5>
+              Read about our journals and projects
+            </div>
+          </li>
+          <li class="d-flex align-items-center gap-4">
+               <a href="https://www.youtube.com/@DudiDevelopmentProgramme" class="px-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" style="color: #c4302b;" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                </svg>
+               </a>
+            <div>
+              <h5 class="mb-0">Our Videos</h5>
+              Videos on projects & various activities.
+            </div>
+          </li>
+        </ul>
+        <h2 class=" text-center fw-bold px-4 pb-4" style="color: #53991e;">Great, Thanks!</h2>
+      </div>
+    </div>
+</div>
+</section>
+
+  <!--========================================== What We do ============================-->
+
+
+    <!-- Community economic empowerment. education . Health is wealth (mental wellbeing prevention of illnesses and disease control) . Sustainable Environment (reafforestation and afforestation, renewable energy sources soil erosion etc). water and sanitation . The vulnerable.  -->
+   
+
+  <section id="works" class="container-fluid bgcolor">
+    <div class=" container px-4 pt-5 pb-3" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Focus Areas</h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                  <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                </svg>
+          </div>
+          <div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Community Economic Empowerment</h4>
+              <p>Fostering self-reliance and social equity to improve social and economic conditions leading to sustainable development</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+              <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Education</h4>
+            <p class="">Empowering communities, enhancing employability, and lifelong learning by promoting adult literacy, youth education and vocational skills</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar2-x" viewBox="0 0 16 16">
+                  <path d="M6.146 8.146a.5.5 0 0 1 .708 0L8 9.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 0 1 0-.708"/>
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
+                  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Health is Wealth</h4>
+            <p>Enhancing mental wellness & chronic disease prevention by promoting healthy lifestyles, early detection and supportive healthcare facilities</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                  <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"/>
+                  <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"/>
+                </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Sustainable Environment</h4>
+            <p>Promoting land rehabilitation, land use planning, re-afforestation, renewable energy usage & protecting ecosystems</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-globe-europe-africa" viewBox="0 0 16 16">
+                  <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.81.81 0 0 1 1.034-.275.81.81 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34q.118.04.243.054c.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.33.33 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501"/>
+                </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Food Security</h4>
+            <p>Promote safe, environment-friendly and conservative agricultural practices.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                  <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a3 3 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1 1 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4 4 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067S8.857 3.052 8.23 2.704c-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.3 3.3 0 0 1-.131-.673q.137.09.337.274m.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088q.081.181.183.365c.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626q.183.103.365.183l-4.861 4.862-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46s-1.168-1.32-1.46-1.846c-.147-.265-.225-.47-.251-.607l-.01-.068zm2.87-1.935a2.4 2.4 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.5 3.5 0 0 0-1.066.091 11 11 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+              </svg>
+            </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Water & Sanitation </h4>
+            <p>Establish safe water for all through WASH programs.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+                  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+                </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">The Vulnerable</h4>
+            <p>Supporting orphans and vulnerable persons in communities</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="pt-1 px-2 text-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-journal-album" viewBox="0 0 16 16">
+              <path d="M5.5 4a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5zm1 7a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="fw-semibold mb-2 text-body-emphasis">Research & Advocacy</h4>
+            <p>Conducting studies to ensure improval of life in different communities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--============================================= Gallery =================================-->
+
+<section class="">
+    <div class="container py-5" id="gallery">
+        <h2 class="pb-2 border-bottom">Projects   Gallery</h2>
+        <div class="row flex-lg-row-reverse align-items-center g-2 py-5"> 
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/reafforestatio.png">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/empowerment.jpeg">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/resource.jpeg">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/waterprob.jpg">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/classes.jpeg">
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+                <a class="" href="">
+                    <img class="img-fluid" style="height: 246px; width: 460px;" src="./img/watertanks.jpeg">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--============================================ Contact ====================================-->
+ 
+<!-- add email admin@dudidevelopment.org  -->
+
+<section id="contact">
+  <div class="bgcolor">
+    <div class="container col-xl-10 col-xxl-12 py-5">
+      <h2 class="pb-2 border-bottom">Contact us</h2>
+
+      <div class="d-flex flex-wrap py-5">
+        <div class="col-md col-xxl-auto ">
+          <form  id="contactForm" name="contact" class="p-4 p-md-3 border rounded-3 bg-body-tertiary">
+            <div class="d-flex justify-content-between gap-4">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" name="name" placeholder="" required>
+                <label for="floatingInput">First Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" name="name" placeholder="" required>
+                <label for="floatingInput">Last Name</label>
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingtext" placeholder="Subject" required>
+              <label for="floatingtext">Subject</label>
+            </div>
+            <div class="form-group mb-3">
+              <label for="floatingtext" class="pb-2">Message Us</label>
+              <textarea class="form-control" id="message" cols="15" rows="4" placeholder="Type your message"></textarea>
+            </div>
+            <div class="d-inline-flex flex-row gap-2">
+            <div class=" btn btn-lg text-light" type="submit" style="background-color: #53991e;">Submit &rarrhk; </div>
+            <div class=" btn btn-lg text-light" type="submit" data-bs-toggle="modal" data-bs-target="#modal" style="background-color: #53991e; opacity: 0.98;">Our Address</div>
+            </div>
+
+            <!-- address modal  -->
+
+            <div class="modal fade bg-body-tertiary" id="modal">
+              <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 style="color: #3d8303;">Our Address</h1>
+                    <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h4 class="text-center text-body-emphasis pb-3">Dudi Development Program, <br>P.O. BOX 63 - 40300 <br>Homabay, Kenya.</h4>
+
+                    <div class="d-flex align-items-center gap-4 px-5 pb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" style="color: #3d8303;" height="30" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708"/>
+                      </svg>
+                      <p class="col-lg-10 fs-4">+254714997368 <br> +254726417376</p>
+                    </div>
+                    <div class="d-flex flex-wrap gap-4 px-5 pb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                      </svg>
+                      <p class="col-lg-10 fs-4">dudidevelopment@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn fw-bold" style="color: #3d8303;" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d554329.1088079361!2d34.74026825072917!3d-0.5025594466553048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182b210037c016e9%3A0x8adc933ee7998e2f!2sDudi%20Development%20Programme!5e0!3m2!1sen!2ske!4v1717521502215!5m2!1sen!2ske" width="550" height="460" class="rounded-3 col-md col-xxl-6 mt-5 mt-md-0 ms-md-3" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+     <!--============================================ Footer===============================-->
+
+      <footer class="pt-4 my-md-5 pt-md-5">
+        <div class="container">
+            <div class="row">
+              <div class="col-12 col-md">
+                <img clas="mb-2" src="./img/LogoDuds.jpg" alt="" width="100">
+                <p class="mb-3 text-body-secondary">&copy; 2024 | All Rights Reserved</p>
+              </div>
+            <div class="col-6 col-md">
+                <h5>Our Profile</h5>
+                <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="service.html#up">What We Offer</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="service.html#mission">Our Mission</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#news">News & Media </a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#gallery">Gallery</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#custom-cards">Recent</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>What we do</h5>
+                <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#projects">Our Projects</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#donors">Partners & Donors</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#works">Our Goals</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#modal">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About Us</h5>
+                <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="service.html#team">Our Team</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#contact">Locations</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="terms.html">Privacy</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="terms.html">Terms</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+      </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- =======Js for sending email====== -->
+    <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+    <!-- ===============add your user ID========= -->
+    <!-- <script type="text/javascript">
+      (function(){
+          emailjs.init("YOUR_USER_ID"); // Replace with your user ID
+      })();
+    </script> -->
+
+<script src="./js/main.js"></script>
+</body>
+</html>
